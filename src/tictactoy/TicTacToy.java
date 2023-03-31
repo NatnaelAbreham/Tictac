@@ -59,7 +59,7 @@ public class TicTacToy extends JFrame {
                 for (int j = 0; j < 3; j++) {
                     if (toy[i][j] == e.getSource()) {
                         //used for detecting if a button not to be pressed more than one 
-                        //if it pressed,it will return withe out changing the button
+                        //if it pressed,it will return without changing the button
                         for (int x = 0; x < 3; x++) {
                             for (int y = 0; y < 3; y++) {
                                 if (xvalue[i][j] == 1 || xvalue[i][j] == 2) {
@@ -308,7 +308,7 @@ public class TicTacToy extends JFrame {
                                             jj = 1;
                                         }
 
-                                        // used for check if priviously assigned 
+                                        // used for check if previously assigned 
                                         if (xvalue[jj][ii] == 2 || xvalue[jj][ii] == 1) {
                                             boolean tv = false;
                                             for (int x = 0; x < 3; x++) {
